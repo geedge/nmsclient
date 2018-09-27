@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="conf/|key/" kind="src" path="src"/>
+	<classpathentry kind="src" path="src/key"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/sigar/sigar.jar"/>
+	<classpathentry kind="lib" path="lib/commons-beanutils-1.7.jar"/>
+	<classpathentry kind="lib" path="lib/commons-collections.jar"/>
+	<classpathentry kind="lib" path="lib/commons-io.jar"/>
+	<classpathentry kind="lib" path="lib/commons-lang.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="lib/ezmorph-1.0.4.jar"/>
+	<classpathentry kind="lib" path="lib/json-lib-2.2.2-jdk15.jar"/>
+	<classpathentry kind="lib" path="lib/junit.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="lib/ostermillerutils_1_07_00.jar"/>
+	<classpathentry kind="lib" path="lib/filemgr/ant.jar"/>
+	<classpathentry kind="lib" path="lib/filemgr/javatar-2.5.jar"/>
+	<classpathentry kind="lib" path="lib/filemgr/java-unrar-0.3.jar"/>
+	<classpathentry kind="lib" path="lib/fileComment.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

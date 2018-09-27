@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: ../lib/commons-net-ftp-2.0.jar ../lib/dom4j-1.6.1.jar ../lib/json-lib-2.2.2-jdk15.jar ../lib/commons-beanutils-1.7.jar ../lib/commons-collections.jar ../lib/commons-lang.jar ../lib/commons-logging.jar ../lib/ezmorph-1.0.4.jar ../lib/log4j-1.2.15.jar ../lib/junit.jar ../lib/sigar.jar ../lib/ostermillerutils_1_07_00.jar ../lib/commons-io.jar ../lib/ant.jar ../lib/javatar-2.5.jar ../lib/java-unrar-0.3.jar
+Main-Class: com.nis.nmsclient.NmsClient
+

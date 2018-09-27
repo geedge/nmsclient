@@ -1,0 +1,15 @@
+log4j.rootLogger = debug,stdout,logfile
+
+log4j.appender.stdout = org.apache.log4j.ConsoleAppender
+log4j.appender.stdout.layout.ConversionPattern = %d %p [%c] [%t] - <%m>%n
+log4j.appender.stdout.layout = org.apache.log4j.PatternLayout
+
+#----------------------debug---------------------
+
+log4j.appender.logfile = org.apache.log4j.RollingFileAppender
+log4j.appender.logfile.MaxFileSize =  50MB
+log4j.appender.logfile.MaxBackupIndex = 20
+
+log4j.appender.logfile.File = ./nc_logs/nmsclient.log
+log4j.appender.logfile.layout.ConversionPattern = %d %p [%c] [%t] - <%m>%n
+log4j.appender.logfile.layout = org.apache.log4j.PatternLayout
