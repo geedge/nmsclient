@@ -1156,8 +1156,7 @@ public class ProcessUtil
 	 */
 	public static List<String> getLinuxProcessId(String procSearchKey)
 	{
-		String cmd = "ps -ef | grep -i '" + procSearchKey.trim()
-				+ "' | grep -v grep | awk '{print $2}'";
+		String cmd = "ps -ef | grep " + procSearchKey.trim() + " | grep -v grep | awk '{print $2}'";
 		logger.info("getLinuxProcessId-----" + cmd);
 		String[] shellCmd1 = new String[] { "/bin/bash", "-c", cmd };
 		BufferedReader bReader = null;
